@@ -34,22 +34,37 @@
         </div>
       </header>
 
-      <section id="main-content">
+      <section id="main-content" aria-labelledby="hero-title">
         <div class="content-texts">
-          <h1>ENJOY YOUR HEALTHY DELICIOUS FOODS.</h1>
-          
-          <p>We serve fresh and tasty food made with love. Come and experience a delightful dining atmosphere with us.</p>
-          <button><a href="#team">Let's Go</a></button>
-        </div>
-        <div class="content-image">
-          <img class="main-image" src="./images/image4.png" alt="">
-          <div class="images">
-            <img class="image" src="./images/image1.png" alt="">
-            <img class="image" src="./images/image2.png" alt="">
-            <img class="image" src="./images/image3.png" alt="">
-            <img class="image" src="./images/image4.png" alt="">
+          <span class="hero-eyebrow"><span></span> FRESH INGREDIENTS. HAPPY MOMENTS.</span>
+          <h1 id="hero-title">Good food.<br>Great mood.<br><span>Every day.</span></h1>
+          <p>Fresh flavors, colorful plates, and a little love in every bite. Pull up a chair and find your new favorite.</p>
+          <div class="hero-actions">
+            <a class="hero-primary" href="#gallery">Explore our food <span aria-hidden="true">&#8599;</span></a>
+            <a class="hero-secondary" href="#contact">Come say hello <span aria-hidden="true">&#8594;</span></a>
+          </div>
+          <div class="hero-features">
+            <div><i class="fa-solid fa-leaf" aria-hidden="true"></i><span>Fresh<br><strong>ingredients</strong></span></div>
+            <div><i class="fa-solid fa-utensils" aria-hidden="true"></i><span>Made with<br><strong>care &amp; love</strong></span></div>
+            <div><i class="fa-solid fa-heart" aria-hidden="true"></i><span>Food for<br><strong>every mood</strong></span></div>
           </div>
         </div>
+        <div class="content-image">
+          <div class="hero-orbit" aria-hidden="true"></div>
+          <span class="hero-note">A little fresh.<br>A lot delicious.</span>
+          <img class="main-image" src="./images/image4.png" alt="Freshly prepared signature dish">
+          <div class="hero-dish-label"><span class="hero-label-icon" aria-hidden="true">&#10022;</span><div>Made to make you smile<strong>Your next favorite plate</strong></div></div>
+          <div class="hero-picker">
+            <span>Find your flavor <span aria-hidden="true">&#8594;</span></span>
+            <div class="images">
+              <button type="button" aria-label="Show dish one"><img class="image" src="./images/image1.png" alt="Dish one"></button>
+              <button type="button" aria-label="Show dish two"><img class="image" src="./images/image2.png" alt="Dish two"></button>
+              <button type="button" aria-label="Show dish three"><img class="image" src="./images/image3.png" alt="Dish three"></button>
+              <button type="button" aria-label="Show dish four" class="selected"><img class="image" src="./images/image4.png" alt="Dish four"></button>
+            </div>
+          </div>
+        </div>
+        <a class="hero-scroll" href="#team">GOOD FOOD BRINGS US TOGETHER <span aria-hidden="true">&#8595;</span></a>
       </section>
                 
        <section id="team">
